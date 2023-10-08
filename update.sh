@@ -7,4 +7,4 @@ wget -O cloudreve.tar.gz https://github.com/cloudreve/Cloudreve/releases/downloa
 tar -zxvf "cloudreve.tar.gz" --overwrite
 rm "cloudreve.tar.gz" "LICENSE" "README.md" "README_zh-CN.md"
 echo "完成，已更新至${tag_name}版本!"
-echo "点击Run按钮重新启动项目！！！"
+echo "请重新启动项目，Stop-Run！！！"
