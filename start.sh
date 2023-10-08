@@ -3,10 +3,10 @@ echo "GitHub开源地址：https://github.com/kyleyh838/CloudreveReplit"
 nix-env -iA nixpkgs.wget
 mkdir build
 cd build
-wget -O .replit https://github.com/kyleyh838/CloudreveReplit/raw/master/.replit
-wget -O replit.nix https://github.com/kyleyh838/CloudreveReplit/raw/master/replit.nix
+wget -O .replit https://github.com/kyleyh838/CloudreveReplit/raw/main/.replit
+wget -O replit.nix https://github.com/kyleyh838/CloudreveReplit/raw/main/replit.nix
 cd ..
-wget -O main.sh https://github.com/kyleyh838/CloudreveReplit/raw/master/main.sh
+wget -O main.sh https://github.com/kyleyh838/CloudreveReplit/raw/main/main.sh
 releases_url=https://api.github.com/repos/cloudreve/Cloudreve/releases/latest
 tag_name=`wget -qO- $releases_url | grep tag_name | cut -f4 -d "\""`
 wget -O cloudreve.tar.gz https://github.com/cloudreve/Cloudreve/releases/download/${tag_name}/cloudreve_${tag_name}_linux_amd64.tar.gz
