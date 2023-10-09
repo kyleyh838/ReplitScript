@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 echo "欢迎使用Cloudreve一键搭建&更新脚本"
 echo "脚本GitHub开源地址：https://github.com/kyleyh838/CloudreveReplit"
 echo "请选择需要执行的操作:"
@@ -26,6 +27,7 @@ case $choice in
     rm "cloudreve.tar.gz" "LICENSE" "README.md" "README_zh-CN.md"
     cp -r build/.replit . && cp -r build/replit.nix .
     rm -rf build/
+    clear
     echo "恭喜安装成功，Cloudreve ${tag_name}"
     echo "点击Run立即运行项目"
     echo "请注意保存初始账号密码"
@@ -38,6 +40,7 @@ case $choice in
     wget -O cloudreve.tar.gz https://github.com/cloudreve/Cloudreve/releases/download/${tag_name}/cloudreve_${tag_name}_linux_amd64.tar.gz
     tar -zxvf "cloudreve.tar.gz" --overwrite
     rm "cloudreve.tar.gz" "LICENSE" "README.md" "README_zh-CN.md"
+    clear
     echo "完成，已更新至${tag_name}版本！"
     echo "请重新启动项目，Stop-Run ！！！"
     ;;
