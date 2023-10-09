@@ -32,3 +32,6 @@
 ```
 bash <(curl -s https://raw.githubusercontent.com/kyleyh838/CloudreveReplit/master/start.sh)
 ```
+
+## 演示站点
+[https://cdr-demo.ooba.repl.co/](https://cdr-demo.ooba.repl.co/)
