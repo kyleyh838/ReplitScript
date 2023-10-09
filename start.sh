@@ -5,6 +5,7 @@ echo "脚本GitHub开源地址：https://github.com/kyleyh838/CloudreveReplit"
 echo "请选择需要执行的操作:"
 echo "a. 安装Cloudreve"
 echo "b. 更新Cloudreve"
+echo "c. 退出脚本"
 
 read choice
 
@@ -40,7 +41,22 @@ case $choice in
     echo "完成，已更新至${tag_name}版本！"
     echo "请重新启动项目，Stop-Run ！！！"
     ;;
+  c)
+    exit 0
+    ;;
   *)
     echo "Warning！Warning！Warning！错误选择！即将启动自毁程序引爆设备，请立即将头塞入马桶避免受伤！！！"
+    echo "输入1返回主菜单，退出脚本输入任意字符"
+    
+    read choice1
+
+    case $choice1 in
+      1)
+        bash <(curl -s https://raw.githubusercontent.com/kyleyh838/CloudreveReplit/master/start.sh)
+        ;;
+      *)
+        exit 0
+        ;;
+    esac
     ;;
 esac
