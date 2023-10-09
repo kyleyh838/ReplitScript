@@ -28,12 +28,7 @@
 ------------------------------
 # 使用说明
 
-一键搭建脚本 (环境选择`Bash` 或 `Blank Repl`)
+一键搭建&更新脚本 (环境选择`Bash` 或 `Blank Repl`)
 ```
 bash <(curl -s https://raw.githubusercontent.com/kyleyh838/CloudreveReplit/master/start.sh)
-```
-
-一键更新脚本
-```
-bash <(curl -s https://raw.githubusercontent.com/kyleyh838/CloudreveReplit/master/update.sh)
 ```
