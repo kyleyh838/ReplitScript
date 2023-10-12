@@ -50,7 +50,7 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Clo
 
 <p align="center">
 <a href="https://github.com/kyleyh838/ReplitScript/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/kyleyh838/ReplitScript.svg?style=flat-square&include_prereleases" /></a>
-<a href="https://github.com/kyleyh838/ReplitScript/Alist/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kyleyh838/ReplitScript/Alist.svg?style=flat-square" /></a>
+<a href="https://github.com/kyleyh838/ReplitScript/commits/main/Alist"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kyleyh838/ReplitScript.svg?style=flat-square" /></a>
 
 <br />
 <a href="https://alist.nn.ci/zh/">文档</a>
