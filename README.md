@@ -58,7 +58,7 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Clo
 </p>
 
 
-## 本项目同步官方:[alist-org/alist](https://github.com/alist-org/alist)最新Releases.
+本项目同步官方:[alist-org/alist](https://github.com/alist-org/alist)最新Releases.
 
 一键搭建&更新脚本 (环境选择`Bash` 或 `Blank Repl`)
 ```
