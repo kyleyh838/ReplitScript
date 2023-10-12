@@ -1,0 +1,41 @@
+name: Check for new release and upload
+
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-and-upload:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download and rename file
+        id: download
+        run: |
+          releases_url=https://api.github.com/repos/alist-org/alist/releases/latest
+          tag_name=`wget -qO- $releases_url | grep tag_name | cut -f4 -d "\""`
+          wget -O linux-amd64.tar.gz https://github.com/alist-org/alist/releases/download/${tag_name}/alist-linux-amd64.tar.gz
+          echo "::set-output name=tag_name::$tag_name"
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.download.outputs.tag_name }}
+          release_name: Alist-${{ steps.download.outputs.tag_name }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./linux-amd64.tar.gz
+          asset_name: linux-amd64.tar.gz
+          asset_content_type: application/gzip

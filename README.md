@@ -1,3 +1,9 @@
+# 项目说明
+最近又玩上了replit，正好上班摸鱼闲来无事，遂写几个脚本方便部署一些小项目。  
+后续发现什么好玩的项目再慢慢添加吧。  
+
+------------------------------
+
 <h1 align="center">
   <br>
   <a href="https://github.com/cloudreve/Cloudreve" alt="logo" ><img src="https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png" width="150"/></a>
@@ -25,13 +31,39 @@
   </a>
 </p>
 
-------------------------------
-# 使用说明
 
 一键搭建&更新脚本 (环境选择`Bash` 或 `Blank Repl`)
 ```
-bash <(curl -s https://raw.githubusercontent.com/kyleyh838/CloudreveReplit/master/start.sh)
+bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Cloudreve/start.sh)
 ```
 
 ## 演示站点
 [https://cdr-demo.ooba.repl.co/](https://cdr-demo.ooba.repl.co/)
+
+------------------------------
+
+<p align="center">
+<a href="https://alist.nn.ci"><img height="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
+</p>
+
+<p align="center"><b>Alist</b>部署于Replit，一个支持多种存储方式的文件列表程序，由Gin和Solidjs驱动。</p>
+
+<p align="center">
+<a href="https://github.com/kyleyh838/ReplitScript/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/kyleyh838/ReplitScript.svg?style=flat-square&include_prereleases" /></a>
+<a href="https://github.com/kyleyh838/ReplitScript/Alist/commits"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kyleyh838/ReplitScript/Alist.svg?style=flat-square" /></a>
+
+<br />
+<a href="https://alist.nn.ci/zh/">文档</a>
+<a href="https://github.com/alist-org/alist/discussions">社区</a>
+</p>
+
+
+## 本项目同步官方:[alist-org/alist](https://github.com/alist-org/alist)最新Releases.
+
+一键搭建&更新脚本 (环境选择`Bash` 或 `Blank Repl`)
+```
+bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Alist/start.sh)
+```
+
+## 演示站点
+[https://alist-demo.ooba.repl.co/](https://alist-demo.ooba.repl.co/)
