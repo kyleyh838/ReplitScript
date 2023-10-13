@@ -9,15 +9,15 @@ clear
 echo "欢迎使用Alist一键搭建&更新脚本"
 echo "脚本GitHub开源地址：https://github.com/kyleyh838/ReplitScript"
 echo "请选择需要执行的操作:"
-echo -e "${green}a. 安装Alist${plain}"
-echo -e "${green}b. 更新Alist${plain}"
-echo -e "${green}c. 退出脚本${plain}"
+echo -e "${green}1. 安装Alist${plain}"
+echo -e "${green}2. 更新Alist${plain}"
+echo -e "${green}0. 退出脚本${plain}"
 
 read choice
 
 case $choice in
-  a)
-    echo -e "${yellow}即将安装Alist，请稍等。。。${plain}"
+  1)
+    echo -e "${yellow}正在安装Alist，请稍等。。。${plain}"
     nix-env -iA nixpkgs.wget
     mkdir build
     cd build
@@ -41,8 +41,8 @@ case $choice in
     echo "./ast admin random"
     exit 0
     ;;
-  b)
-    echo -e "${yellow}即将更新Alist，请稍等。。。${plain}"
+  2)
+    echo -e "${yellow}正在更新Alist，请稍等。。。${plain}"
     rm -rf ast
     releases_url=https://api.github.com/repos/kyleyh838/ReplitScript/releases/latest
     tag_name=`wget -qO- $releases_url | grep tag_name | cut -f4 -d "\""`
@@ -55,17 +55,17 @@ case $choice in
     echo -e "请重新启动项目，${red}Stop-Run${plain} ！！！"
     exit 0
     ;;
-  c)
+  0)
+    echo "已退出脚本，期待你的再次使用！"
     exit 0
     ;;
   *)
-    echo -e "${red}Warning！Warning！Warning！错误选择！即将启动自毁程序引爆设备，请立即将头塞入马桶避免受伤！！！${plain}"
-    echo "是否返回主菜单？[y/n]"
+    echo -e "${red}Warning！Warning！Warning！错误选择！即将启动自毁程序引爆设备，请立即将头塞入马桶避免受伤！！！${plain}\n是否返回主菜单？[y/n]:"
     
     read choice1
 
     case $choice1 in
-      y)
+      y|Y)
         bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Alist/start.sh)
         ;;
       *)
