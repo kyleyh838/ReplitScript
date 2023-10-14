@@ -3,6 +3,6 @@ run = ["bash", "main.sh"]
 entrypoint = "main.sh"
 
 [nix]
-channel = "stable-22_11"
+channel = "stable-23_05"
 [gitHubImport]
 requiredFiles = [".replit","replit.nix"]
