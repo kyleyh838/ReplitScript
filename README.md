@@ -72,7 +72,7 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Ali
 ------------------------------
 
 <div align="center" width="100%">
-    <img src="./public/icon.svg" width="128" alt="" />
+    <img src="https://github.com/louislam/uptime-kuma/blob/master/public/icon.svg" width="128" alt="" />
 </div>
 
 <p align="center">Uptime Kuma is an easy-to-use self-hosted monitoring tool.</p>
