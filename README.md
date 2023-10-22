@@ -31,8 +31,9 @@
   </a>
 </p>
 
+项目来源：[cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve)   
 
-一键搭建&更新脚本 (环境选择`Bash` 或 `Blank Repl`)
+一键搭建&更新脚本 (`Bash` 或 `Blank Repl`环境)
 ```
 bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Cloudreve/start.sh)
 ```
@@ -58,12 +59,36 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Clo
 </p>
 
 
-本项目同步官方:[alist-org/alist](https://github.com/alist-org/alist)最新Releases.
+本项目同步官方：[alist-org/alist](https://github.com/alist-org/alist)最新Releases.
 
-一键搭建&更新脚本 (环境选择`Bash` 或 `Blank Repl`)
+一键搭建&更新脚本 (`Bash` 或 `Blank Repl`环境)
 ```
 bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Alist/start.sh)
 ```
 
 ## 演示站点
 [https://alist-demo.ooba.repl.co/](https://alist-demo.ooba.repl.co/)
+
+------------------------------
+
+<div align="center" width="100%">
+    <img src="./public/icon.svg" width="128" alt="" />
+</div>
+
+<p align="center">Uptime Kuma is an easy-to-use self-hosted monitoring tool.</p>
+
+<a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://img.shields.io/github/stars/louislam/uptime-kuma" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://img.shields.io/docker/pulls/louislam/uptime-kuma" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://img.shields.io/docker/v/louislam/uptime-kuma/latest?label=docker%20image%20ver." /></a> <a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://img.shields.io/github/last-commit/louislam/uptime-kuma" /></a>  <a target="_blank" href="https://opencollective.com/uptime-kuma"><img src="https://opencollective.com/uptime-kuma/total/badge.svg?label=Open%20Collective%20Backers&color=brightgreen" /></a>
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/louislam?label=GitHub%20Sponsors)](https://github.com/sponsors/louislam) <a href="https://weblate.kuma.pet/projects/uptime-kuma/uptime-kuma/">
+<img src="https://weblate.kuma.pet/widgets/uptime-kuma/-/svg-badge.svg" alt="Translation status" />
+</a>   
+
+项目来源：[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)   
+
+一键搭建脚本 (`Node.js`环境)   
+
+```
+bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Uptime-kuma/start.sh)
+```
+
+## 演示站点
+[https://uptime-demo.ooba.repl.co/](https://uptime-demo.ooba.repl.co/)
