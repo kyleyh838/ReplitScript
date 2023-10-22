@@ -6,7 +6,7 @@
 
 <h1 align="center">
   <br>
-  <img height="100px" alt="logo" src="https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png" width="150"/>
+  <img height="150px" alt="logo" src="https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png" width="150"/>
   <br>
   Cloudreve
   <br>
@@ -45,7 +45,7 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Clo
 
 <h1 align="center">
   <br>
-  <img height="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg" width="150"/>
+  <img height="150px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg" width="150"/>
   <br>
   Alist
   <br>
@@ -77,7 +77,7 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Ali
 
 <h1 align="center">
   <br>
-  <img height="100px" alt="logo" src="https://github.com/louislam/uptime-kuma/blob/master/public/icon.svg" width="150"/>
+  <img height="150px" alt="logo" src="https://github.com/louislam/uptime-kuma/blob/master/public/icon.svg" width="150"/>
   <br>
   Uptime Kuma
   <br>
