@@ -6,7 +6,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/cloudreve/Cloudreve" alt="logo" ><img src="https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png" width="150"/></a>
+  <img height="100px" alt="logo" src="https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png" width="150"/>
   <br>
   Cloudreve
   <br>
@@ -43,11 +43,15 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Clo
 
 ------------------------------
 
-<p align="center">
-<a href="https://alist.nn.ci"><img height="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
-</p>
+<h1 align="center">
+  <br>
+  <img height="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg" width="150"/>
+  <br>
+  Alist
+  <br>
+</h1>
 
-<p align="center"><b>Alist</b>部署于Replit，一个支持多种存储方式的文件列表程序，由Gin和Solidjs驱动。</p>
+<h4 align="center">一个支持多存储的文件列表程序，使用 Gin 和 Solidjs</h4>
 
 <p align="center">
 <a href="https://github.com/kyleyh838/ReplitScript/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/kyleyh838/ReplitScript.svg?style=flat-square&include_prereleases" /></a>
@@ -71,16 +75,22 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Ali
 
 ------------------------------
 
-<div align="center" width="100%">
-    <img src="https://github.com/louislam/uptime-kuma/blob/master/public/icon.svg" width="128" alt="" />
-</div>
+<h1 align="center">
+  <br>
+  <img height="100px" alt="logo" src="https://github.com/louislam/uptime-kuma/blob/master/public/icon.svg" width="150"/>
+  <br>
+  Uptime Kuma
+  <br>
+</h1>
 
-<p align="center">Uptime Kuma is an easy-to-use self-hosted monitoring tool.</p>
+<h4 align="center">简单方便的自建监控工具</h4>
 
+<p align="center">
 <a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://img.shields.io/github/stars/louislam/uptime-kuma" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://img.shields.io/docker/pulls/louislam/uptime-kuma" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://img.shields.io/docker/v/louislam/uptime-kuma/latest?label=docker%20image%20ver." /></a> <a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://img.shields.io/github/last-commit/louislam/uptime-kuma" /></a>  <a target="_blank" href="https://opencollective.com/uptime-kuma"><img src="https://opencollective.com/uptime-kuma/total/badge.svg?label=Open%20Collective%20Backers&color=brightgreen" /></a>
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/louislam?label=GitHub%20Sponsors)](https://github.com/sponsors/louislam) <a href="https://weblate.kuma.pet/projects/uptime-kuma/uptime-kuma/">
 <img src="https://weblate.kuma.pet/widgets/uptime-kuma/-/svg-badge.svg" alt="Translation status" />
-</a>   
+</a>
+</p>   
 
 项目来源：[louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)   
 
