@@ -1,0 +1,11 @@
+modules = ["python-3.10:v18-20230807-322e88b"]
+
+hidden = [".pythonlibs"]
+run = "pip install -r requirements.txt && curl -o- https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/qBittorrent-bot/bgrun.sh | bash -s -- python3 main.py"
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["sh", "-c", "pip install -r requirements.txt && curl -o- https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/qBittorrent-bot/bgrun.sh | bash -s -- python3 main.py"]
+deploymentTarget = "cloudrun"
