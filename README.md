@@ -114,7 +114,8 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Upt
 <h4 align="center">Telegram bot to manage your qBittorrent torrents.</h4>
 
 项目来源：[zeroone2numeral2/qbittorrent-bot](https://github.com/zeroone2numeral2/qbittorrent-bot)  
-汉化包来源：[SYQMAN](https://syq.pub/archives/138/)  
+汉化包来源：[SYQMAN](https://syq.pub/archives/138)  
+Python保活方案来源：[qwerdenkerXD/replit-keep-alive](https://github.com/qwerdenkerXD/replit-keep-alive)
 
 一键搭建脚本 (`Python`环境)   
 
@@ -124,5 +125,5 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/qBi
 
 ### 注意
 该项目Bot Token，qBittorrent登录信息等会明文储存于`config.toml`文件中  
-请使用pro或edu团队创建private项目搭建  
+推荐使用pro或edu团队创建private项目搭建  
 不建议使用个人版，会有泄露隐私的风险！  

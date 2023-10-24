@@ -18,12 +18,8 @@ case $choice in
   1)
     echo -e "${yellow}正在安装qBittorrent-bot，请稍等。。。${plain}"
     nix-env -iA nixpkgs.wget
-    nix-env -iA nixpkgs.rsync
     wget -O .replit https://github.com/kyleyh838/ReplitScript/raw/main/qBittorrent-bot/.replit
     wget -O replit.nix https://github.com/kyleyh838/ReplitScript/raw/main/qBittorrent-bot/replit.nix
-    git clone https://github.com/zeroone2numeral2/qbittorrent-bot
-    rsync -a --remove-source-files qbittorrent-bot/ .
-    find qbittorrent-bot -type d -empty -delete
     wget -O qbot.tar https://github.com/kyleyh838/ReplitScript/releases/download/qbot/qbittorrent-bot-zh.tar
     tar -xf "qbot.tar" --overwrite
     rm "qbot.tar"
@@ -77,7 +73,7 @@ altspeed_presets = [
     clear
     echo "恭喜安装成功"
     echo "点击Run立即运行项目"
-    echo -e "${red}首次运行需安装依赖库\n用时较长请耐心等待！${plain}"
+    echo -e "${red}首次运行需安装依赖库，用时较长请耐心等待！${plain}"
     echo "TG-Bot输入/help查看指令"
     exit 0
     ;;
