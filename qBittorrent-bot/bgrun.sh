@@ -13,7 +13,7 @@ class MyServer(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/html')
         self.end_headers()
-        self.wfile.write(b'This is a status page. You can tell the project’s running just fine!')
+        self.wfile.write(b'Hello there')
 
     def do_OPTIONS(self):
       self.send_response(200, 'ok')
