@@ -25,3 +25,9 @@ class MyServer(BaseHTTPRequestHandler):
 server_address = ('0.0.0.0', 8000)
 httpd = HTTPServer(server_address, MyServer)
 httpd.serve_forever()" &
+
+while true
+do
+  curl -s https://${REPL_SLUG}.${REPL_OWNER}.repl.co > /dev/null
+  sleep 180
+done

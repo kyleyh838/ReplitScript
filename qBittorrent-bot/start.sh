@@ -73,6 +73,7 @@ altspeed_presets = [
     [5, 200],
 ]
 " > "$file_to_edit"
+    pip install -r requirements.txt
     clear
     echo "恭喜安装成功"
     echo "点击Run立即运行项目"
