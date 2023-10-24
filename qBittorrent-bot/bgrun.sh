@@ -1,7 +1,11 @@
-#!/bin/bash
+#!/usr/env bash
 
+# Usage: bgrun.sh <RUN-COMMAND> ...
+
+# run project in background
 $* &
 
+# start server in background for HTTP requests to keep alive
 python -c "from http.server import BaseHTTPRequestHandler, HTTPServer
 
 class MyServer(BaseHTTPRequestHandler):

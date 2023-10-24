@@ -73,6 +73,7 @@ altspeed_presets = [
     [5, 200],
 ]
 " > "$file_to_edit"
+    clear
     echo "恭喜安装成功"
     echo "点击Run立即运行项目"
     echo -e "${red}首次运行需安装依赖库\n用时较长请耐心等待！${plain}"

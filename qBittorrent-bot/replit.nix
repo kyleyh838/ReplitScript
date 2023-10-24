@@ -1,4 +1,6 @@
-  environment.systemPackages = [
-    pkgs.wget
-    pkgs.rsync
-  ];
+{ pkgs }: {
+    deps = [
+        pkgs.wget
+        pkgs.rsync
+    ];
+}
