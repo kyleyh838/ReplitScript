@@ -18,8 +18,12 @@ case $choice in
   1)
     echo -e "${yellow}正在安装qBittorrent-bot，请稍等。。。${plain}"
     nix-env -iA nixpkgs.wget
+    nix-env -iA nixpkgs.rsync
     wget -O .replit https://github.com/kyleyh838/ReplitScript/raw/main/qBittorrent-bot/.replit
     wget -O replit.nix https://github.com/kyleyh838/ReplitScript/raw/main/qBittorrent-bot/replit.nix
+    git clone https://github.com/zeroone2numeral2/qbittorrent-bot
+    rsync -a --remove-source-files qbittorrent-bot/ .
+    find qbittorrent-bot -type d -empty -delete
     wget -O qbot.tar https://github.com/kyleyh838/ReplitScript/releases/download/qbot/qbittorrent-bot-zh.tar
     tar -xf "qbot.tar" --overwrite
     rm "qbot.tar"
