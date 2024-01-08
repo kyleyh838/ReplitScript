@@ -39,7 +39,7 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Clo
 ```
 
 ## 演示站点
-[https://cdr-demo.ooba.repl.co/](https://cdr-demo.ooba.repl.co/)
+[https://b5692867-d33d-4598-8760-aa1364909895-00-36sykffp34ash.global.replit.dev/](https://b5692867-d33d-4598-8760-aa1364909895-00-36sykffp34ash.global.replit.dev/)
 
 ------------------------------
 
@@ -71,7 +71,7 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Ali
 ```
 
 ## 演示站点
-[https://alist-demo.ooba.repl.co/](https://alist-demo.ooba.repl.co/)
+[https://4d8d34d7-d4a1-40c4-884e-04e99b312c67-00-2c1rxt0gr4jll.global.replit.dev/](https://4d8d34d7-d4a1-40c4-884e-04e99b312c67-00-2c1rxt0gr4jll.global.replit.dev/)
 
 ------------------------------
 
@@ -101,7 +101,7 @@ bash <(curl -s https://raw.githubusercontent.com/kyleyh838/ReplitScript/main/Upt
 ```
 
 ## 演示站点
-[https://uptime-demo.ooba.repl.co/](https://uptime-demo.ooba.repl.co/)
+[https://4c1de7c4-52ad-428b-bdf5-cec90e209a9d-00-sxesfcbcff99.global.replit.dev/](https://4c1de7c4-52ad-428b-bdf5-cec90e209a9d-00-sxesfcbcff99.global.replit.dev/)
 
 ------------------------------
 
